@@ -24,7 +24,7 @@ loginForm.addEventListener('submit', function (event) {
   if (emailInput === validCredentials.email && passwordInput === validCredentials.password) {
       alert("Login berhasil!");
       // Redirect ke halaman lain (opsional)
-      window.location.href = "";
+      window.location.href = "file:///C:/Users/Lenovo/Desktop/profil%20uing/j/profil.html";
   } else {
       alert("Email atau password salah!");
   }
